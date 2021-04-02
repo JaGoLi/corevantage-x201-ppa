@@ -7,5 +7,7 @@ Homepage: https://github.com/JaGoLi/corevantage
 
 Package: corevantage-x201
 Architecture: amd64
+Provides: corevantage
+Conflicts: corevantage
 Depends: ${shlibs:Depends}, ${misc:Depends}, qt5-default, nvramtool, hicolor-icon-theme
 Description: Graphical user interface to configure coreboot settings for: ThinkPad X201
