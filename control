@@ -2,12 +2,12 @@ Source: corevantage-x201
 Section: utils
 Priority: optional
 Maintainer: Jason Goulet-Lipman <jason.gouletlipman@gmail.com>
-Build-Depends: build-essential, cmake, qt5-default, qtdeclarative5-dev
+Build-Depends: build-essential, cmake, qtbase5-dev, qtdeclarative5-dev
 Homepage: https://github.com/JaGoLi/corevantage
 
 Package: corevantage-x201
 Architecture: amd64
 Provides: corevantage
 Conflicts: corevantage
-Depends: ${shlibs:Depends}, ${misc:Depends}, qt5-default, nvramtool, hicolor-icon-theme
+Depends: ${shlibs:Depends}, ${misc:Depends}, nvramtool, hicolor-icon-theme
 Description: Graphical user interface to configure coreboot settings for: ThinkPad X201
